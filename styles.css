@@ -156,16 +156,16 @@ h1 {
 	color: white;
 	font-size: .9em;
 	font-weight: 800;
-	transition: .5s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .head-btn:hover {
 	cursor: pointer;
-	transform: scale(1.2);
+	transform: scale(1.15);
 }
 
 .head-btn:active {
-	transform: scale(1);
+	transform: scale(1.1);
 	transition: .05s ease-in-out;
 }
 
@@ -174,7 +174,6 @@ h1 {
 }
 
 .main {
-    border: 1px solid black;
     grid-area: 3 / 2 / 4 / 3;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -183,10 +182,14 @@ h1 {
 	grid-row-gap: 25px;
 	padding-top: 2%;
 	padding-left: 2%;
+	background-color: #e7e7e7
 }
 
-.projects {
+.projectTitle {
 	grid-area: 1 / 1 / 2 / 3;
+	font-size: 1.5rem;
+	font-weight: 800;
+	text-decoration: underline;
 }
 
 .proj1 {
@@ -233,7 +236,8 @@ h1 {
 }
 
 .welcome {
-	margin-right: 61%;
+	font-size: 1.5rem;
+	margin-right: 58%;
 	font-weight: 800;
 }
 
@@ -283,4 +287,59 @@ h1 {
 #upload {
 	margin-right: 2%;
 	margin-left: 2%;
+}
+
+.projects {
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.title {
+	font-size: 1rem;
+	font-weight: 800;
+	display: flex;
+	margin-left: -4%;
+	padding-top: 1%;
+	height: 8%;
+	background-color: #ffd900;
+}
+
+.progressBar {
+	display: flex;
+	font-weight: 800;
+	color: black;
+	justify-content: center;
+}
+
+#proj1 > .progressBar {
+	background: #218b01;
+	background: linear-gradient(90deg, #22ce00 83%, rgba(255,255,255,1) 83%);
+}
+
+#proj2 > .progressBar {
+	background: #218b01;
+	background: linear-gradient(90deg, #22ce00 90%, rgba(255,255,255,1) 90%);
+}
+
+#proj3 > .progressBar {
+	background: #218b01;
+	background: linear-gradient(90deg, #22ce00 9%, rgba(255,255,255,1) 9%);
+}
+
+#proj4 > .progressBar {
+	background: #218b01;
+	background: linear-gradient(90deg, #22ce00 26%, rgba(255,255,255,1) 26%);
+}
+
+#proj5 > .progressBar {
+	background: #218b01;
+	background: linear-gradient(90deg, #22ce00 77%, rgba(255,255,255,1) 77%);
+}
+
+#proj6 > .progressBar {
+	background: #218b01;
+	background: linear-gradient(90deg, #22ce00 35%, rgba(255,255,255,1) 35%);
 }
