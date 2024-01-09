@@ -1,3 +1,4 @@
+// script for collapse and expand of side menu
 const minBtn = document.querySelector('#minimize');
 const expBtn = document.querySelector('#expand');
 const barBtns = document.querySelectorAll('.colBtn');
