@@ -182,7 +182,7 @@ h1 {
 	padding-top: 1%;
 	padding-left: 2%;
 	padding-right: 1%;
-	padding-bottom: .5%;
+	padding-bottom: 1%;
 	background-color: #e7e7e7
 }
 
@@ -311,11 +311,12 @@ h1 {
 }
 
 .title {
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	font-weight: 800;
 	display: flex;
 	margin-left: -4%;
 	padding-top: 1%;
+	padding-bottom: .5%;
 	height: 8%;
 	background-color: #ffd900;
 }
@@ -332,27 +333,22 @@ h1 {
 	background: #218b01;
 	background: linear-gradient(90deg, #22ce00 83%, rgba(255,255,255,1) 83%);
 }
-
 #proj2 > .progressBar {
 	background: #218b01;
 	background: linear-gradient(90deg, #22ce00 90%, rgba(255,255,255,1) 90%);
 }
-
 #proj3 > .progressBar {
 	background: #218b01;
 	background: linear-gradient(90deg, #22ce00 9%, rgba(255,255,255,1) 9%);
 }
-
 #proj4 > .progressBar {
 	background: #218b01;
 	background: linear-gradient(90deg, #22ce00 41%, rgba(255,255,255,1) 41%);
 }
-
 #proj5 > .progressBar {
 	background: #218b01;
 	background: linear-gradient(90deg, #22ce00 77%, rgba(255,255,255,1) 77%);
 }
-
 #proj6 > .progressBar {
 	background: #218b01;
 	background: linear-gradient(90deg, #22ce00 26%, rgba(255,255,255,1) 26%);
@@ -397,13 +393,12 @@ h1 {
 	padding-left: 2%;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	align-items: center;
 	background-color: whitesmoke;
 	margin-bottom: 5px;
 	margin-top: 1%;
 }
-
 
 .teamPic {
 	height: 3em;
@@ -424,4 +419,16 @@ h1 {
 }
 .memMessage:hover {
 	cursor: pointer;
+}
+
+.messages {
+	margin-top: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: whitesmoke;
+	font-size: 1.2rem;
+}
+.subject {
+	font-weight: 800;
+	margin-bottom: 2%;
 }
